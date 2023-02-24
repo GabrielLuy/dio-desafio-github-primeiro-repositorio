@@ -6,7 +6,6 @@ Desafio de projeto da DIO - Criando meu primeiro repositório no github e pratic
 
 [Download GIT](https://git-scm.com/)
 
-## Comandos Fundamentais do GIT
 
-- 
+
 
