@@ -1,0 +1,9 @@
+dir - Listar pastas;
+cd - Navegar entre diretórios (digite "cd NOMEDODIRETÓRIO");
+cd / - Ir para o início do diretório;
+cd .. - Retroceder um nível na navegação;
+cls - Limpar terminal;
+mkdir nome da pasta - Criar pasta;
+rmdir NOMEDAPASTA /S /Q - Apagar PASTA;
+Tecla "TAB" - Autocompletar [Ex.: cd W (então, você aperta "TAB" e o nome da pasta que se inicia com "W" se completará)];
+

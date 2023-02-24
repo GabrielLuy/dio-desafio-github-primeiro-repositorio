@@ -1,0 +1,21 @@
+ls - Listar repositórios;
+ls -a - Listar repósitórios ocultos;
+cd .. - Retroceder um nível na navegação;
+CTRL+L - Limpar terminal;
+mkdir NOMEDOREPOSITÓRIO - Criar novo repositório;
+git init - Criar novo repositório GIT;
+git config --global user.email "SEUEMAIL" - Configurar e-mail de usuário do GIT;
+git config --global user.name SEUNOMEDEUSUÁRIO - Configurar nome de usuário do GIT;
+git config --list - Listar configurações do GIT;
+git config --global --unset user.mail (no lugar de user.mail pode ser qualquer configuração listada) - Apagar configuração;
+git status - Mostrar o status do arquivo (se está modified, unmodfied, staged ou untracked);
+mv NOMEDOARQUIVO ./NOMEDOREPOSITÓRIOAOQUALVOCÊQUERMOVEROARQUIVO/ - Mover arquivo;
+echo > NOMEDOARQUIVO.EXTENSÃO - Criar arquivo;
+remote add origin https://github.com/GabrielLuy/livro-receitas.git (ou o link de qualquer outro repositório remoto) - Cadastrar repositório remoto (GITHub);
+git remote -v - Listar repositórios remotos cadastrados;
+git push origin master - "Empurrar" repositório local para repositório remoto (para o GITHub, por exemplo);
+git pull origin master - "Puxar" arquivos de repositório remoto para repositório local;
+git clone LINKDOREPÓSITORIOREMOTO - Clonar repositório;
+
+
+
