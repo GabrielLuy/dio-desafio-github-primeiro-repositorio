@@ -13,6 +13,8 @@ mv NOMEDOARQUIVO ./NOMEDOREPOSITÓRIOAOQUALVOCÊQUERMOVEROARQUIVO/ - Mover arqui
 echo > NOMEDOARQUIVO.EXTENSÃO - Criar arquivo;
 remote add origin https://github.com/GabrielLuy/livro-receitas.git (ou o link de qualquer outro repositório remoto) - Cadastrar repositório remoto (GITHub);
 git remote -v - Listar repositórios remotos cadastrados;
+git add . - Adicionar todos os arquivos ao controle de versão local;
+git commit -m "COMENTÁRIOS SOBRE AS ALTERAÇÕES FEITAS NESTA VERSÃO DO PROJETO" - "Commitar" (versionar) projeto;
 git push origin master - "Empurrar" repositório local para repositório remoto (para o GITHub, por exemplo);
 git pull origin master - "Puxar" arquivos de repositório remoto para repositório local;
 git clone LINKDOREPÓSITORIOREMOTO - Clonar repositório;
